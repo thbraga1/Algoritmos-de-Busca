@@ -1,0 +1,64 @@
+
+TP4 – Projeto e Análise de Algoritmos
+=====================================
+
+Este projeto implementa e compara algoritmos de busca aproximada e exata
+em arquivos de texto comprimidos e não comprimidos.
+
+---
+
+COMPILAÇÃO
+----------
+
+Requisitos:
+- Sistema Linux
+- Compilador GCC
+- Utilitário make
+
+Para compilar o projeto, utilize o comando:
+
+    make
+
+Isso irá gerar os seguintes executáveis:
+
+- tp4_parte1 : Busca aproximada (Programação Dinâmica e Shift-And)
+- tp4_parte2 : Busca exata em texto comprimido (Huffman + BMH)
+
+---
+
+EXECUÇÃO
+--------
+
+Parte 1 – Busca Aproximada (texto original)
+-------------------------------------------
+
+    ./tp4_parte1 <arquivo_texto> <arquivo_padroes>
+
+O programa solicitará o valor de k (número máximo de erros permitidos) e
+executará automaticamente os dois algoritmos (PD e Shift-And) para cada padrão.
+
+Exemplo:
+
+    ./tp4_parte1 texto.txt padroes.txt
+
+
+Parte 2 – Busca Exata (texto comprimido)
+----------------------------------------
+
+    ./tp4_parte2 <arquivo_texto> <arquivo_padroes>
+
+Executa compressão com Huffman e faz a busca com BMH no texto comprimido e original.
+
+Exemplo:
+
+    ./tp4_parte2 texto.txt padroes.txt
+
+A saída inclui:
+- Tamanho original e comprimido
+- Ocorrências encontradas (original e comprimido)
+- Tempo de execução
+- Número de comparações
+- Redução percentual de comparações
+
+---
+
