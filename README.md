@@ -1,4 +1,4 @@
-# 🔍 TP4 – Projeto e Análise de Algoritmos
+# 🔍 TP3 – Projeto e Análise de Algoritmos
 
 Este repositório contém a implementação e análise de desempenho de algoritmos de busca em arquivos de texto, abordando **casos de busca aproximada e exata**, com e sem **compressão usando Huffman**.
 
